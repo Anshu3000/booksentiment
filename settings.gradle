@@ -1,0 +1,2 @@
+rootProject.name='Aiproject'
+include ':app'
