@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Aiproject</string>
     <string name="signup1"><u>Sign Up</u></string>
+    <string name="signin1"><u>Sign In</u></string>
     <string name="signup">Sign Up</string>
+    <string name="signin">Sign Ip</string>
     <string name="enteremail">enter your email addr....</string>
     <string name="entepasswo">enter password.....</string>
     <string name="are1">Are you already signup :</string>
+    <string name="are11">Are you Not signup :</string>
     <string name="are2"><u>signin</u></string>
+    <string name="are3"><u>signup</u></string>
 </resources>

@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:background="#f4f9f9"
-    android:scrollbars="vertical"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent"
+    tools:context=".Signin12">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
         android:padding="20dp"
         >
         <TextView
-            android:text="@string/signup1"
+            android:text="@string/signin1"
             android:layout_width="match_parent"
             android:textSize="32sp"
 
@@ -24,38 +24,19 @@
             android:textStyle="bold"
             android:layout_height="wrap_content"/>
 
-      <com.google.android.material.textfield.TextInputLayout
-          android:layout_width="match_parent"
-          android:layout_marginTop="40dp"
-           app:errorEnabled="true"
-          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-          android:layout_height="wrap_content">
-
-          <com.google.android.material.textfield.TextInputEditText
-              android:id="@+id/emailaddr1"
-              android:drawableStart="@drawable/ic_email1_24dp"
-              android:hint="@string/enteremail"
-              android:inputType="textEmailAddress"
-              android:drawablePadding="10dp"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"/>
-      </com.google.android.material.textfield.TextInputLayout>
-
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="40dp"
             app:errorEnabled="true"
-            app:counterEnabled="true"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:passwordToggleEnabled="true"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/pass1"
-                android:drawableStart="@drawable/ic_lock_black_24dp"
-                android:hint="@string/entepasswo"
+                android:id="@+id/enteremailaddr1"
+                android:drawableStart="@drawable/ic_email1_24dp"
+                android:hint="@string/enteremail"
+                android:inputType="textEmailAddress"
                 android:drawablePadding="10dp"
-                android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -70,18 +51,18 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/pass2"
+                android:id="@+id/enterpassword1"
                 android:drawableStart="@drawable/ic_lock_black_24dp"
                 android:hint="@string/entepasswo"
                 android:drawablePadding="10dp"
                 android:inputType="textPassword"
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </com.google.android.material.textfield.TextInputLayout>
+
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/signup1"
+            android:id="@+id/signin1"
 
             style="@style/Widget.MaterialComponents.Button"
             android:layout_width="match_parent"
@@ -90,34 +71,36 @@
             android:layout_marginTop="30dp"
 
 
-            android:text="@string/signup"
+            android:text="@string/signin"
             android:textSize="22sp"
             android:textStyle="bold" />
 
-           <LinearLayout
-               android:layout_marginTop="5dp"
-               android:paddingLeft="85dp"
-               android:orientation="horizontal"
-               android:layout_marginBottom="30dp"
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:paddingLeft="85dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-               <TextView
-                   android:text="@string/are1"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/are11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-               <TextView
-                   android:id="@+id/text12sig"
-                   android:text="@string/are2"
-                   android:textSize="22sp"
-                   android:paddingLeft="10dp"
-                   android:textColor="#188AE4"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/entertext12"
+                android:text="@string/are3"
+                android:textSize="22sp"
+                android:paddingLeft="10dp"
+                android:textColor="#188AE4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-           </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
+
+
 
 </ScrollView>
